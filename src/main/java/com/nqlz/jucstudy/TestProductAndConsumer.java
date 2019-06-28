@@ -1,7 +1,7 @@
 package com.nqlz.jucstudy;
 
 /**
- * 功能描述:
+ * 功能描述:同步代码块
  *
  * @author: MR.zt
  * @date: 2019/6/21 0:08
