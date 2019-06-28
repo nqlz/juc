@@ -32,7 +32,7 @@ class Clerk {
      * 进货
      */
     public synchronized void get() {
-        //使用while避免徐佳佳唤醒
+        //使用while避免虚假唤醒
         while (product >= 1) {
             System.out.println("仓库已满。。。");
             try {
